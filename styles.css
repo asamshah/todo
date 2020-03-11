@@ -1,0 +1,103 @@
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 30%;
+}
+  
+    /* Title */
+    .title{
+      padding-top: 10px;
+    }
+    .title,.input{
+      display: flex;
+      top: 15%;
+      justify-content: center;
+    }
+    /* Input Bar */
+    .input-bar{
+      width: 62%;
+      padding-left: 8px;
+    }
+    /* Intro Component */
+    .intro-component{
+      display: flex;
+      justify-content: center;
+      padding-right: 16%;
+    }
+    /* Small Buttons */
+    .buttons{
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+     
+    /* Big Buttons */
+    .button{
+      padding-left: 10px;
+    }
+    .add-button{
+      padding: 0.375rem 2.0rem;
+      color: #ffff;
+      border-radius: 4px;
+      background-color: rgb(96, 9, 133);
+      cursor: pointer;
+    }
+  
+    }
+    .del-button{
+      padding: 0.375rem 2.0rem;
+      color: #ffff;
+      border-radius: 4px;
+      background-color: rgb(186, 13, 65);
+      cursor: pointer;
+    }
+    
+  /* Output List */
+    .add-wo{
+      background-color:  #cad0db;
+      border-left: 5px  #cad0db solid;
+      padding: 5px 10px;
+      width: 55%;
+    }
+    /* Deleted List */
+    .wo-delete{
+      background-color:  #cad0db;
+      border-left: 5px  #cad0db solid;
+      padding: 6px 8px;
+      width: 50%;
+      text-decoration: line-through;
+  
+    }
+    /* Footer */
+    footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(139, 203, 237);
+      color: rgb(196, 15, 63);
+      text-align: center;
+   } 
+   @media only screen and (min-width:768px){
+    .hide{
+      display: block;
+    }
+    .show{
+      display: none;
+    }
+    .logo{
+      max-width: 30%;
+      height: auto;
+    }
+    .input-bar{
+      width: 40%;
+    }
+    .add-wo{
+      width: 40%;
+    }
+    .wo-delete{
+      width: 40%;
+    }
+   
+  }
